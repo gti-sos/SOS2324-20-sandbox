@@ -1,6 +1,6 @@
 //console.log("Hola Mundo!");
 
-/*
+
 
 log("test log");
 
@@ -33,20 +33,3 @@ numbers.forEach(log)
 
 
 
-*/
-
-
-let agenda = [
-    { name: 'luis', phone: '12345'},
-    { name: 'paco', phone: '4352'},
-    { name: 'carmen', phone: '121019249345'},
-    { name: 'manuel', phone: '85793'}
-
-]
-
-function search(list,searchString){
-    return list.filter( (n) => n.name.match(searchString))
-}
-
-
-console.log(search(agenda,"l"))
