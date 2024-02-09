@@ -1,7 +1,7 @@
 //console.log("Hola Mundo!");
 
 
-
+/*
 log("test log");
 
 let o = new Object();
@@ -28,8 +28,18 @@ function log(msg) {
 }
 
 numbers.forEach(log)
+*/
 
 
+let agenda = [{name:"luis", phone:605000999 },
+{name:"pepe", phone:605000999 },
+{name:"maria", phone:605000999 },
+{name:"paco", phone:605000999 }]
+
+function busqueda(ls, searchString) {
+    return ls.filter( (n) => n.name.match(searchString));
+}
 
 
-
+console.log(busqueda(agenda,"p"));
+//
