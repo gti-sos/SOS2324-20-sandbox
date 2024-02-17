@@ -8,5 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ale",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4",
+    "express": "^4.18.2"
+  }
 }
