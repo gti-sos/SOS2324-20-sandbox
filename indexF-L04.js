@@ -2,7 +2,7 @@ let cool = require("cool-ascii-faces");
 let express = require("express");
 
 let app = express();
-const PORT = 10000;            //(process.env.PORT || 10000);
+const PORT = (process.env.PORT || 11111);
 
 app.use("/",express.static("./public"));
 
