@@ -4,7 +4,7 @@
   "description": "Mi primer paquete de Node",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "node indexF-L04.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ale",
