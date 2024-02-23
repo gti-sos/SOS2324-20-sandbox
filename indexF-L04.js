@@ -2,7 +2,7 @@ let cool = require("cool-ascii-faces");
 let express = require("express");
 
 let bodyParser = require("body-parser");
-
+let contactAPI = require("./api-contacts");
 
 let app = express();
 
