@@ -1,12 +1,12 @@
 let cool = require("cool-ascii-faces");
 let express = require("express");
-let bodyParser = require("body-parser")
+let bodyParser = require("body-parser");
 let app = express();
-
+let contactAPI = require("./api-contacts");
 
 const PORT = (process.env.PORT || 10000);
 
-
+contactAPI(app);
 app.use(bodyParser.json());
 app.use("/",express.static("./public"));
 
