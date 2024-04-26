@@ -1,0 +1,15 @@
+{
+    "name": "my-docker-app",  
+    "version": "1.0.0",
+    "description": "A simple Dockerized Node.js application",
+    "main": "index.js",  
+    "scripts": {
+      "start": "node index.js" 
+    },
+    "author": "Your Name", 
+    "license": "MIT", 
+    "dependencies": {
+      "express": "^4.18.2" 
+    }
+  }
+  
